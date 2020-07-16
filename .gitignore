@@ -1,0 +1,13 @@
+# File name .gitignore
+
+# ignore secret.yml
+secret.yml
+
+# ignore secret.yml under Config directory
+config/secret.yml
+
+# ignore all the files which file extension is .sqlite3 under db directory
+/db/* .sqlite3
+
+# ignore all the files which file extension is .tmp
+.tmp
